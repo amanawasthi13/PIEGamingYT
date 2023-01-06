@@ -1,0 +1,54 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container-fluid {
+  background-image: url("../images/bg_image.jpg");
+  background-repeat: no-repeat, repeat;
+  background-color: #cccccc;
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+}
+
+.logo-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px;
+}
+
+.logo {
+  width: 150px;
+  height: 150px;
+  border-radius: 100px;
+}
+
+.channel-name {
+  color: white;
+  padding: 20px;
+  font-weight: bold;
+}
+
+.channel-iframe {
+  width: 500px;
+  height: 200px;
+}
+
+.description {
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.social-media {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.fa {
+  margin: 5px;
+}
